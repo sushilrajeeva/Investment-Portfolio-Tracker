@@ -1,9 +1,13 @@
 # This is a placeholder module. Replace the functions with actual implementations for fetching real-time prices.
+# Necessary Imports
+import yfinance as yf
 
 def fetch_stock_price(stock_name):
     # Placeholder function for fetching stock price.
     # Replace with real implementation (e.g., using yfinance)
-    return 100  # Example price
+    current_stock_value = yf.Ticker(stock_name).info.get('currentPrice')
+    print(current_stock_value)
+    return current_stock_value
 
 def fetch_gold_price():
     # Placeholder function for fetching gold price.
