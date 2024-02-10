@@ -14,7 +14,7 @@ This Investment Analysis Tool is a Python-based application designed to help use
 To get started with this tool, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/sushilrajeeva/Investment-Portfolio-Tracker.git
+[git clone https://github.com/sushilrajeeva/Investment-Portfolio-Tracker.git](https://github.com/sushilrajeeva/Stock-Ticker-Analysis.git)
 ```
 
 ## Usage
